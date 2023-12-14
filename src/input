@@ -1,0 +1,16 @@
+function a() {
+    var aaa = 1;
+    var hdja = 2;
+    function c() {
+        var ccc = 2;
+        function d() {
+            var ddd = 3;
+            console.log(aaa);
+            console.log(bbb);
+            console.log(ccc);
+            console.log(ddd);
+        }
+        d()
+    }
+
+}
